@@ -1,1 +1,158 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+
+svg {
+	height: 1em;
+	fill: white;
+}
+
+body {
+        font-family: "Lato", Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        background-color: #E9EAEE; 
+    }
+h1 {
+        font-family: "Raleway", Helvetica, sans-serif;
+    }
+h2 {
+	color: #BC6026;
+}
+
+nav {
+	position: fixed;
+	background-color: #181C22;
+	font-size: 16px;
+	margin-left: 15px;
+	display: inline;
+	padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    font-variant: small-caps;
+    z-index: 1;	    
+}
+
+nav a { 
+	color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #D87E28;
+}
+
+header {
+	padding-top: 3em;
+	background-size: cover;
+}
+
+header p {
+	display: none;
+}
+
+#headline p {
+	font-style: italic;
+}
+
+@media (min-width: 992px) {
+	header {
+		background-image: url('../img/background-md.jpg');
+		width: 100%;
+	}
+	header h1 {
+		font-size: 4em;
+	}
+	header p {
+		display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		background-image: url('../img/background-lg.jpg');
+	}
+	header p {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	nav {
+		width: 100%;
+		background-color: rgba(24, 28, 34, 0.8);
+    	padding-right: 1em;
+    	padding-left: 1em;
+    }
+
+    h2 {
+    	border-radius: .5em;
+        text-align: center;
+    }
+
+    header {
+    	color: white;
+		text-align: right;
+		min-height: 550px;
+		background-image: url('../img/background-sm.jpg');
+		background-repeat: no-repeat;
+    }
+    header p {
+    	display: block;
+    }
+    #headline svg {
+    	height: 1.5em;
+    	margin-top: 3em;
+    	margin-bottom: 1em;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    }
+    #headline svg path {
+    	fill: #D87E28;
+    }
+    #headline p {
+    	font-size: 1.25em;
+    	text-align: center;
+    	margin-bottom: 3em;
+    }
+    #row {
+    	text-align: center;
+    	background-color: #dbdce3;
+    }
+    #row img {
+    	border-radius: 5px;
+    }
+    #menu p {
+    	font-style: italic;
+    }
+    #story img {
+    	max-height: 400px;
+    }
+    #footer2 {
+    	text-align: right;
+    }
+}
+#story {
+	background-color: #dbdce3;
+}
+#story img {
+        float: right;
+    	max-height: 300px;
+    	margin-left: 1em;
+    	border-radius: 5px;
+}
+#footer {
+	border-top: #D87E28 solid;
+	padding-top: 1em;
+	background-color: #afb3c2;
+	font-size: 12px; 
+}
+#order {
+    padding-top: 1em;
+}
+}
