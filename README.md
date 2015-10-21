@@ -6,7 +6,7 @@ This folder contains your submission for the [responsive challenge](http://facul
 > https://students.washington.edu/tabikim/info343/dawg-coffee
 
 ##### 2. Did you receive any help from others (classmates, etc)? If so, please list who. #####
-> Joanna the TA!
+> Joanna the TA and Ying!
 
 ##### 3. Did you complete any advanced extensions to this challenge? If so, what? #####
 > No I did not!
